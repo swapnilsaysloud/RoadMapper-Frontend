@@ -4,7 +4,7 @@ import { Background } from './Background'
 import Loading from './Loading'
 import Footer from './Footer'
 
-const backendapi = "http://127.0.0.1:5000"
+const backendapi = "https://roadmapper-backend-1.onrender.com"
 
 export default function LearningPage() {
     const [learningTopic, setLearningTopic] = useState('')
