@@ -11,7 +11,7 @@ import Popup from './Popup';
 import { generateNodes, generateEdges } from './graphUtils';
 
 
-const backendapi = "http://127.0.0.1:5000" ; 
+const backendapi = "https://roadmapper-backend-1.onrender.com" ; 
 
 const nodeTypes = {
   custom: CustomNode,
