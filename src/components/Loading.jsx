@@ -17,6 +17,7 @@ export default function Loading() {
     <div className="fixed inset-0 flex flex-col items-center justify-center">
     <Background/>
     <h1 className="text-3xl font-bold text-white mb-4 text-center relative z-10 playwrite-au-vic-guides-regular">Roadmap Loading...</h1>
+    <p className="text-white text-center text-sm mt-2">Powered by mira</p>
     <Runner gifUrl={gifUrl} />
     </div>
   )
